@@ -1,0 +1,320 @@
+@import url("https://fonts.google.com/specimen/Barlow");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background-image: url(images/desktop/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 800px;
+  position: relative;
+}
+
+.first-design {
+  display: flex;
+}
+
+.second-design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.design-tool {
+  position: relative;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.design-tool h1 {
+  position: absolute;
+  left: 20px;
+  top: 60px;
+}
+
+.design-tool p {
+  position: absolute;
+  top: 160px;
+  left: 30px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.design-tool h5 {
+  position: absolute;
+  left: 25px;
+  bottom: 120px;
+  border-bottom: 5px solid hsl(7, 99%, 70%);
+  border-radius: 5px;
+}
+.second-design h1 {
+  margin-left: 20px;
+}
+
+.third-design {
+  display: flex;
+}
+.main-container {
+  width: 800px;
+  height: 100vh;
+}
+
+.design-tool {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.egg-product img,
+.second-design img {
+  width: 400px;
+  height: 400px;
+}
+
+.graphic-design {
+  width: 400px;
+  min-height: 350px;
+  background-image: url(images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.photography {
+  width: 400px;
+  min-height: 350px;
+  background-image: url(images/desktop/image-photography.jpg);
+  background-size: cover;
+  position: relative;
+  color: hsl(198, 62%, 26%);
+}
+
+.design-meaning {
+  position: absolute;
+  bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 70px;
+  gap: 20px;
+}
+
+.design-meaning p {
+  text-align: center;
+  font-size: 12px;
+  color: hsl(167, 40%, 24%);
+}
+.testimonial-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin-top: 30px;
+}
+
+.testimonial-part h2 {
+  color: hsl(167, 40%, 24%);
+  font-weight: bold;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  background-color: hsl(0, 0%, 100%);
+  position: relative;
+}
+
+.testimonial p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  color: hsl(167, 40%, 24%);
+}
+
+.testimonial img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 45px;
+}
+
+.product-list {
+  display: flex;
+}
+
+.product-list img {
+  width: 200px;
+  height: 250px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(168, 34%, 41%);
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 200px;
+  position: relative;
+}
+
+.brief-description {
+  display: flex;
+  gap: 25px;
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 10px;
+  bottom: 30px;
+  position: absolute;
+}
+
+.social-media-icons img {
+  width: 12px;
+  height: 14px;
+}
+.brief-description p {
+  font-size: 14px;
+}
+
+.logo-image {
+  position: absolute;
+  top: 35px;
+  font-size: 30px;
+}
+
+.logo-image img {
+  font-size: 200px;
+  color: black;
+}
+
+.testimonial-group {
+  display: flex;
+  gap: 25px;
+}
+
+.client-description {
+  position: absolute;
+  bottom: 25px;
+  text-align: center;
+}
+
+.client-description p {
+  color: hsl(213, 9%, 39%);
+}
+
+.agency-mission,
+.egg-product {
+  width: 400px;
+  height: 400px;
+}
+
+.agency-mission {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.agency-mission h2 {
+  position: absolute;
+  top: 70px;
+  left: 30px;
+}
+
+.agency-mission p {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.agency-mission h5 {
+  position: absolute;
+  bottom: 130px;
+  left: 30px;
+  border-bottom: 5px solid hsl(51, 100%, 49%);
+  border-radius: 5px;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.logo-nav img {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  left: 20px;
+}
+
+.logo-nav ul {
+  display: flex;
+  margin-right: 10px;
+  gap: 20px;
+  list-style: none;
+  position: absolute;
+  right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+.arrow {
+  position: absolute;
+  left: 400px;
+  top: 170px;
+  width: 20px;
+  height: 70px;
+}
+
+header h1 {
+  position: absolute;
+  left: 230px;
+  top: 100px;
+  color: white;
+}
+
+ul li a button {
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  width: 80px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.design-meaning p {
+  color: hsl(213, 9%, 39%);
+}
+
+.agency-mission p {
+  color: hsl(213, 9%, 39%);
+}
